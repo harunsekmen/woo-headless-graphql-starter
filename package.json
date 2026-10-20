@@ -1,0 +1,8 @@
+{
+  "name": "woo-headless-graphql-starter",
+  "version": "1.0.0",
+  "description": "Production-ready headless starter connecting WordPress backend with edge-deployed Astro/Next.js frontend.",
+  "scripts": {
+    "test": "node tests/test-graphql.js"
+  }
+}
