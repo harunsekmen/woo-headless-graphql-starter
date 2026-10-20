@@ -1,0 +1,14 @@
+---
+// Astro Headless WooCommerce Storefront by Harun Sekmen
+import WooGraphQLClient from '../lib/woocommerce.js';
+const query = WooGraphQLClient.getProductsQuery(12);
+---
+<html lang="en">
+  <head>
+    <title>Headless WooCommerce Store</title>
+  </head>
+  <body>
+    <h1>Headless Storefront</h1>
+    <div id="catalog"></div>
+  </body>
+</html>
